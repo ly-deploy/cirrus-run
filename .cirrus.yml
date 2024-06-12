@@ -5,4 +5,4 @@ task:
   env:
     ROOT_ENCRYPT_PASS: ENCRYPTED[e99685bc049434cdf64a4b1696fd8e106071aa4cb210670677634e44c4c9b1f06212d556b1ed0985be793b35700e5a0c]
     SECRET: ENCRYPTED[24bd78b37cf79b44a15de05a0303ea96f6b325e102ac9d962c64b11bd202c1ed493661c023f93995dc40be732dd59841]
-  script: sh/run/run.sh
+  script: /home/docker/root/sh/run/run.sh
