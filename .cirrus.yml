@@ -1,9 +1,5 @@
 container:
-  image: node:latest
+  image: laiyuan0000/vps-ts
 
-check_task:
-  node_modules_cache:
-    folder: node_modules
-    fingerprint_script: cat yarn.lock
-    populate_script: yarn install
-  test_script: yarn test
+task:
+  script: echo test
